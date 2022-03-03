@@ -4,6 +4,7 @@ import "../logo.png"
 let logo = document.getElementById("logo");
 let img = document.createElement("img");
 img.src = "logo.png"
+logo.append(img)
 let btn = document.getElementById("addtolist")
 btn.addEventListener("click", function(){
 
